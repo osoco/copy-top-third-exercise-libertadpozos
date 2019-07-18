@@ -1,18 +1,12 @@
 .container{
-    width:250px;
-    height: 345px;
     position: relative;
 }
 
-.two-thirds{
-    position: absolute;
-    clip: rect(0px,250px,230px,0px);;
-    z-index:2;
-}
+
 .one-third{
     position: absolute;
     clip: rect(0px,250px,115px,0px);
     top: 230px;
+    left:0px;
+    
 }
-
-
